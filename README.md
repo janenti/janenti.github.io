@@ -2,15 +2,15 @@
 
 Esto formara parte de la documentacion de la UF1, rewvisar codigo para entender mejor
 
-##Markdown
+## Markdown
 
 Markdown es un lenguaje de marcas pensado para documentacion y para ser convertido a otros formatos.
 
-##Cabeceras
+## Cabeceras
 
 Las cabeceras se marcan con tantas almohadillas como nivel de cabecera: # es h1; ##es h3; ... asi hasta h6
 
-###Párrafos
+### Párrafos
 
 para hacer parrafps debe hacer una o mas lineas en blaco entre lineas.
 

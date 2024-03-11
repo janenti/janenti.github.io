@@ -1,0 +1,91 @@
+body {
+font-family: "Roboto Mono", monospace;
+margin: 0;
+padding: 0;
+background-color: #333;
+height: 100%;
+}
+header {
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+header nav {
+display: flex;
+justify-content: center;
+background-color: #c4cdbb;
+font-family: "Roboto Mono", monospace;
+}
+header nav ul {
+display: flex;
+text-align: center;
+font-size: 30px;
+list-style-type: none; 
+}
+header nav ul li {
+margin-right: 20px;
+}
+header nav ul li a {
+text-decoration: none;
+color: #666;
+}
+header nav ul li a:hover {
+color: #ccb2ac;
+}
+
+header h1 {
+color: #666;
+font-family: "Kode Mono", monospace;
+font-size: 50px;
+}
+
+footer{
+background-color: #c4cdbb; 
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+font-family: "Kode Mono", monospace;
+}
+#galeria {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+#imagenes {
+height: 300px;
+width: 300px;
+}
+
+h2 {
+color: #666;
+font-family: "Kode Mono", monospace;
+font-size: 30px;
+}
+#lista_texto {
+list-style: square;
+margin-bottom: 10px;
+padding: 5px;
+color: #d8d8d8;
+font-size: 20px;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

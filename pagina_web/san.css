@@ -1,0 +1,93 @@
+body {
+margin: 0;
+padding: 0;
+background-color: #f191df;
+height: 100%;
+font-family: "Amatic SC", sans-serif;
+font-size: 45px;
+color: #ff0074;
+}
+
+header {
+padding: 10px 0;
+text-align: center;
+}
+
+header nav {
+display: flex;
+justify-content: center;
+background-color: #ff00a6;
+font-family: "Shadows Into Light", cursive;
+}
+
+header nav ul {
+display: flex;
+text-align: center;
+font-size: 30px;
+list-style-type: none; 
+}
+
+header nav ul li {
+margin-right: 20px;
+}
+
+header nav ul li a {
+text-decoration: none;
+color: #64006e;
+}
+
+header nav ul li a:hover {
+color: #ffa8cf;
+}
+
+footer{
+font-family: "Great Vibes", cursive;
+background-color: #ff00a6;
+color: #64006e;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+#galeria {
+list-style: none;
+padding: 5px;
+display: flex;
+justify-content: center;
+}
+#imagenes {
+height: 300px;
+width: 300px;
+margin: 5px;
+}
+
+#icono {
+height: 80px;
+width: 80px;	
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shadows-into light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+

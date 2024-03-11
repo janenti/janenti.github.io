@@ -69,4 +69,14 @@ Para meter una lsita dentro de otra, utilizamos la tabulación.
 
 Los enlaces son como las imagenes pero sin la exclamacion delante y se pueden introducir dentro de frases [como esta](https://www.enti.cat)
 
+### Bloques de cita
 
+Los bloques de cita nos ayudan a destacar el código o frases de manera especial.
+
+> Esto es una cita.
+
+Para la cita, se utiliza el simbolo mayor que seguido de un espacio.
+
+> Esto es una _cita_
+> Con múltples **lineas**
+> > Esto es una cita dentro de otra
